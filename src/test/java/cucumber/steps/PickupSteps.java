@@ -17,6 +17,8 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PickupSteps {
+    private final String KEY_DRIVER = "webdriver.chrome.driver";
+    private final String PATH_DRIVER = "src/main/resources/drivers/chromedriver.exe";
     WebDriver driver;
     public SearchPage searchPage;
     public RentComponent rentComponent;
@@ -25,8 +27,7 @@ public class PickupSteps {
 
     @Given("User is on {string} side")
     public void userIsOnSide(String URLString) {
-        System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver.exe");
+        System.setProperty(KEY_DRIVER, PATH_DRIVER);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

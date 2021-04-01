@@ -1,0 +1,1 @@
+For working test should install Google Chrome driver and set correctly value of PATH_DRIVER. 
