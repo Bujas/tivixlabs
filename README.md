@@ -30,5 +30,5 @@
    * ` PATH_DRIVER = "src/main/resources/drivers/geckodriver.exe"` for mozilla
    *  `PATH_DRIVER = "src/main/resources/drivers/EdgeDriver.exe"` for Microsoft Edge
 
-7. Open terminal and run command "mvn clean install" after this command all dependencies should be installed and test will be run.
+7. Open terminal and run command `mvn clean install` after this command all dependencies should be installed and test will be run.
 8. Report should be available in main folder in `report.html` file
