@@ -1,4 +1,4 @@
-## How to run project on Windows
+## How to set environment on Windows
 1. Download java https://www.oracle.com/pl/java/technologies/javase-downloads.html
 2. Instruction how to set java home how to set https://mkyong.com/java/how-to-set-java_home-on-windows-10/
 3. After java, install maven https://mkyong.com/maven/how-to-install-maven-in-windows/
@@ -13,7 +13,7 @@
 2. Install java by brew `brew cask install java`
 3. Install maven by brew `brew install maven`
 
-#For all systems:
+#Run project in all systems:
 4. Add right driver to src/main/resources/drivers
    * https://github.com/mozilla/geckodriver/releases for mozilla
    * https://chromedriver.chromium.org/downloads for chrome
