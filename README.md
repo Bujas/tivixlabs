@@ -13,7 +13,7 @@
 2. Install java by brew `brew cask install java`
 3. Install maven by brew `brew install maven`
 
-#Run project in all systems:
+# Run project in all systems:
 
 4. Add right driver to src/main/resources/drivers
    * https://github.com/mozilla/geckodriver/releases for mozilla
