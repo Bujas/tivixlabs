@@ -39,7 +39,6 @@ public class RentComponent {
     }
 
     public void listNotShouldBeEmpty() {
-        ArrayList<RentElement> carToRentList = new ArrayList<>();
         int sizeOfCarToRentList = driver.findElements(By.xpath("//tbody/tr")).size();
         assertTrue(sizeOfCarToRentList > 0);
     }
