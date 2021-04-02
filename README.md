@@ -26,9 +26,9 @@
    *  `KEY_DRIVER = "webdriver.edge.driver"` for Microsoft Edge
 
 6. Set right value of PATH_DRIVER in src/test/java/cucumber/steps/PickupSteps.java
-   *  `PATH_DRIVER = "src/main/resources/drivers/chromedriver.exe"` for chrome
-   * ` PATH_DRIVER = "src/main/resources/drivers/geckodriver.exe"` for mozilla
-   *  `PATH_DRIVER = "src/main/resources/drivers/EdgeDriver.exe"` for Microsoft Edge
+   *  `PATH_DRIVER = "src/main/resources/drivers/chromedriver"` with correct filename extension for chrome
+   * ` PATH_DRIVER = "src/main/resources/drivers/geckodriver"` with correct filename extension for mozilla
+   *  `PATH_DRIVER = "src/main/resources/drivers/EdgeDriver"` with correct filename extension for Microsoft Edge
 
 7. Open terminal and run command `mvn clean install` after this command all dependencies should be installed and test will be run.
 8. Report should be available in main folder in `report.html` file
